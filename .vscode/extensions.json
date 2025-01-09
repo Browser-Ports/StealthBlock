@@ -1,0 +1,3 @@
+{
+  "recommendations": ["astro-build.astro-vscode", "biomejs.biome", "editorconfig.editorconfig", "steoates.autoimport", "wix.vscode-import-cost", "aaron-bond.better-comments", "gruntfuggly.todo-tree", "bierner.markdown-checkbox", "hookyqr.jsdoctagcomplete", "christian-kohler.npm-intellisense", "christian-kohler.path-intellisense", "phoenisx.cssvar", "yoavbls.pretty-ts-errors", "johnsoncodehk.vscode-tsconfig-helper", "cezaraugusto.vscode-chrome-extesion-manifest-json-schema", "dunstontc.vscode-gitignore-syntax", "unifiedjs.vscode-mdx", "vadistic.mdx-inline", "andywang.vscode-scriptmonkey"]
+}

@@ -1,0 +1,57 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+    "javascript": {
+        "formatter": {
+            "arrowParentheses": "asNeeded",
+            "trailingCommas": "none",
+            "indentWidth": 4
+        }
+    },
+    "organizeImports": {
+        "enabled": true
+    },
+    "vcs": {
+        "enabled": true,
+        "clientKind": "git",
+        "useIgnoreFile": true
+    },
+    "linter": {
+		"rules": {
+			"nursery": {
+				"noExportedImports": "error",
+				"useDeprecatedReason": "error",
+				"useExplicitType": "error",
+				"noUselessStringRaw": "error",
+				"useImportRestrictions": "error"
+			},
+			"performance": {
+				"noBarrelFile": "error",
+				"noReExportAll": "error",
+				"useTopLevelRegex": "error",
+				"noDelete": "off"
+			},
+			"suspicious": {
+				"noClassAssign": "error"
+			},
+			"style": {
+                "noParameterAssign": "error",
+				"noNamespace": "error",
+				"noNamespaceImport": "error",
+				"noNegationElse": "error",
+				"noNonNullAssertion": "error",
+				"noShoutyConstants": "error",
+				"useConsistentArrayType": "error",
+				"noYodaExpression": "error",
+				"useFilenamingConvention": {
+					"level": "error",
+					"options": {
+						"filenameCases": ["camelCase", "PascalCase"],
+						"requireAscii": true
+					}
+				},
+				"useThrowOnlyError": "error"
+			}
+		},
+		"ignore": ["deno.json", "dist/"]
+	}
+}

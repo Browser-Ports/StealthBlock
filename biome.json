@@ -1,0 +1,13 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+    "files": {
+        "ignore": [
+            "astro",
+            "Chromium-MV3",
+            "Proxy Middleware",
+            "Universal-MV2",
+            "UserScript",
+            "Util"
+        ]
+    }   
+}
